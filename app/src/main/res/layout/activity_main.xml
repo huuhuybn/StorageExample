@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="18dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:onClick="ghiVaoBoNhoCache"
+        android:text="ghiVaoBoNhoCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="docTuBoNhoCache"
+        android:text="docTuBoNhoCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="18dp"
+        android:background="@color/black" />
+
+    <Button
+        android:onClick="ghiVaoBoNhoTrong"
+        android:text="ghi vao bo nho trong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="docTuBoNhoTrong"
+        android:text="doc tu bo nho trong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="18dp"
+        android:background="@color/black" />
+
+    <Button
+        android:text="Ghi vao Share Preferences"
+        android:onClick="ghiVaoBoNhoSharePref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="docTuBoNhoSharePref"
+        android:text="Doc Tu Share Preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="18dp"
+        android:background="@color/black" />
+
+    <Button
+        android:text="Ghi vao Bo Nho Ngoai"
+        android:layout_width="match_parent"
+        android:onClick="ghiVaoBoNhoNgoai"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Doc tu Bo nho ngoai"
+        android:onClick="docTuBoNhoNgoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="18dp"
+        android:background="@color/black" />
+
+
+</LinearLayout>
